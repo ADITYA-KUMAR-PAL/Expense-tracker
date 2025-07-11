@@ -1,0 +1,16 @@
+[google_service_account]
+type = "service_account"
+project_id = "big-icon-464907-s4"
+private_key_id = "6e3bbca3be24efed3e23770f37c2bf46dc09aee0"
+private_key = """-----BEGIN PRIVATE KEY-----
+MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDHLtR6foWHjAcp
+... (paste full key exactly)
+arY8rgl+rpLMjegCZ0PfmK0=
+-----END PRIVATE KEY-----"""
+client_email = "ad-942@big-icon-464907-s4.iam.gserviceaccount.com"
+client_id = "107692224361124236530"
+auth_uri = "https://accounts.google.com/o/oauth2/auth"
+token_uri = "https://oauth2.googleapis.com/token"
+auth_provider_x509_cert_url = "https://www.googleapis.com/oauth2/v1/certs"
+client_x509_cert_url = "https://www.googleapis.com/robot/v1/metadata/x509/ad-942%40big-icon-464907-s4.iam.gserviceaccount.com"
+universe_domain = "googleapis.com"
