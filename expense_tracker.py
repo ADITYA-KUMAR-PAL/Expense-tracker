@@ -7,7 +7,10 @@ import gspread
 from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 scope = ["https://spreadsheets.google.com/feeds", "https://www.googleapis.com/auth/drive"]
-creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", scope)
+creds = ServiceAccountCredentials.from_json_keyfile_dict(
+    st.secrets["google_service_account"], scope
+)
+
 client = gspread.authorize(creds)
 # Replace with your actual sheet name (visible in Google Sheets)
 sheet = client.open("Saara Hisaab").sheet1
